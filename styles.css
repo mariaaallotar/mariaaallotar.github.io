@@ -1,0 +1,98 @@
+
+
+body {
+    /*background-image: linear-gradient(-45deg, rgb(163, 163, 163), white); */
+    background-color: #373737;
+}
+
+.navbarDark {
+    background: #373737;
+    transition: background-color 0.5s linear;
+}
+
+.bgimage {
+    height: 100vh;
+    background: url('images/pictureOfMeCROPPED.jpeg');
+    background-size:cover;
+    padding: 0;
+    margin: 0;
+}
+
+.meSlogan {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    color: white;
+}
+
+marquee {
+    text-align: right;
+    line-height: 80%;
+}
+
+.slogan_title {
+    font-size: 500%;
+}
+
+.slogan_desc {
+    font-size: 150%;
+    position: relative;
+    padding-left: 33%;
+}
+
+.navbar-brand {
+    color: rgb(208, 208, 208);
+}
+
+.about {
+    margin-top: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    /*border: medium solid rgb(2, 1, 0);*/
+}
+
+.about-header {
+    text-align: center;
+    font-size: 300%;
+    font-weight: bold;
+    color:rgba(255, 255, 255, 0.881);
+}
+
+.about-nav-item {
+    margin: 8px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+.about-nav-link {
+    font-size: larger;
+    font-weight: 300;
+    color: black;
+}
+
+.about-nav-item:hover {
+    background: url('images/pictureOfMeCROPPED.jpeg');
+    filter:grayscale(50%) brightness(150%);
+}
+
+.about-nav-link:visited{
+    color: black;
+}
+
+.about-nav-link:hover {
+    color:rgba(255, 255, 255, 0.881);
+}
+
+.dropdown-menu {
+    min-width: 100%;
+    text-align: center;
+    color: black;
+}
+
+.about-text * {
+    color:rgb(208, 208, 208);
+}
+
+hr {
+    color:rgb(208, 208, 208);
+}
